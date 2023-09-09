@@ -1,10 +1,18 @@
-<script setup>
-import AppMenu from './AppMenu.vue'
-</script>
-
 <template>
-  <div class="p-8">
-    <AppMenu />
-    <router-view />
-  </div>
+  <v-app>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
+
+<script>
+
+export default {
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
+}
+</script>
