@@ -3,8 +3,7 @@ import { createApp } from 'vue'
 import { VueMeteor } from 'vue-meteor-tracker'
 
 import App from './App.vue'
-import  router  from './router'
-
+import  router  from './plugins/router'
 import vuetify from './plugins/vuetify'
 
 
